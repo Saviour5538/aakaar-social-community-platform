@@ -1,0 +1,1 @@
+-- Schema will be generated after requirements are finalized
