@@ -1,13 +1,13 @@
 1. Project Overview
 ===================
-Project: Social Community Platform Revamp
+Project: 
 Client: 
 
 2. Requirements Traceability
 ============================
 {
-  "total_functional": 41,
-  "total_non_functional": 26,
+  "total_functional": 0,
+  "total_non_functional": 0,
   "total_constraints": 0,
   "total_integrations": 0,
   "total_gaps_risks": 0,
@@ -16,32 +16,32 @@ Client:
       "pass": 1,
       "name": "metadata",
       "success": true,
-      "model": "llama-3.1-8b-instant",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
       "input_tokens": 3806,
-      "output_tokens": 165
+      "output_tokens": 166
     },
     {
       "pass": 2,
       "name": "functional_requirements",
       "success": true,
-      "model": "llama-3.1-8b-instant",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
       "input_tokens": 3929,
-      "output_tokens": 2964
+      "output_tokens": 1877
     },
     {
       "pass": 3,
       "name": "non_functional_requirements",
       "success": true,
-      "model": "llama-3.1-8b-instant",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
       "input_tokens": 3919,
-      "output_tokens": 1892
+      "output_tokens": 31
     },
     {
       "pass": 4,
       "name": "constraints_integrations_gaps",
-      "success": false,
-      "model": "llama-3.1-8b-instant",
-      "input_tokens": 0,
+      "success": true,
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "input_tokens": 4120,
       "output_tokens": 0
     }
   ]
@@ -58,8 +58,8 @@ Client:
     {
       "pass": 1,
       "name": "architecture_design",
-      "success": false,
-      "model": "llama-3.1-8b-instant"
+      "success": true,
+      "model": "nvidia/nemotron-3-super-120b-a12b"
     }
   ]
 }
@@ -70,7 +70,7 @@ Client:
 
 5. Code Review Results
 ======================
-Implementation has significant security concerns and lacks quality and best practices.
+No review
 
 6. Test Coverage
 ================
